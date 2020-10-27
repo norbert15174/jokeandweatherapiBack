@@ -1,4 +1,4 @@
-package pl.jokeandwheaterapi.jokeandwheaterapi.Controlers.Wheater;
+package pl.jokeandweatherapi.jokeandweatherapi.Controlers.Wheater;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
@@ -10,7 +10,7 @@ import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.context.annotation.RequestScope;
 import org.springframework.web.util.UriComponentsBuilder;
-import pl.jokeandwheaterapi.jokeandwheaterapi.Models.Weather.WeatherModel;
+import pl.jokeandweatherapi.jokeandweatherapi.Models.Weather.WeatherModel;
 
 @Controller
 @RequestScope

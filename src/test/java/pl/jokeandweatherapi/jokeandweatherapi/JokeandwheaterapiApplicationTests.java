@@ -1,4 +1,4 @@
-package pl.jokeandwheaterapi.jokeandwheaterapi;
+package pl.jokeandweatherapi.jokeandweatherapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

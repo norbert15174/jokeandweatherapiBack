@@ -1,5 +1,5 @@
 
-package pl.jokeandwheaterapi.jokeandwheaterapi.Models.Weather;
+package pl.jokeandweatherapi.jokeandweatherapi.Models.Weather;
 
 import java.util.HashMap;
 import java.util.Map;

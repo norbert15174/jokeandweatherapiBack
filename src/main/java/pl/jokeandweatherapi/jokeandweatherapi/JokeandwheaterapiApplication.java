@@ -1,4 +1,4 @@
-package pl.jokeandwheaterapi.jokeandwheaterapi;
+package pl.jokeandweatherapi.jokeandweatherapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package pl.jokeandwheaterapi.jokeandwheaterapi.Controlers.Jokes;
+package pl.jokeandweatherapi.jokeandweatherapi.Controlers.Jokes;
 
 
 import org.springframework.http.*;
@@ -7,8 +7,7 @@ import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.context.annotation.RequestScope;
 import org.springframework.web.util.UriComponentsBuilder;
-import pl.jokeandwheaterapi.jokeandwheaterapi.Models.Jokes.Joke;
-import pl.jokeandwheaterapi.jokeandwheaterapi.Models.Jokes.Jokes;
+import pl.jokeandweatherapi.jokeandweatherapi.Models.Jokes.Jokes;
 
 
 @Controller

@@ -8,10 +8,10 @@
         <version>2.3.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>pl.JokeAndWheaterApi</groupId>
-    <artifactId>jokeandwheaterapi</artifactId>
+    <groupId>pl.JokeAndWheatherApi</groupId>
+    <artifactId>jokeandwheatherapi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>jokeandwheaterapi</name>
+    <name>jokeandwheatherapi</name>
     <description>joke and wheater</description>
 
     <properties>
