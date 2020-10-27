@@ -1,15 +1,13 @@
-package pl.jokeandweatherapi.jokeandweatherapi.Controlers.Wheater;
+package pl.jokeandweatherapi.jokeandweatherapi.Controllers.Wheater;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import pl.jokeandweatherapi.jokeandweatherapi.Models.Weather.WeatherModel;
 
 @RestController
 @RequestMapping(path = "/Weather")
+@CrossOrigin
 public class WeatherRestController {
 
     WeatherController weatherController;

@@ -1,4 +1,4 @@
-package pl.jokeandweatherapi.jokeandweatherapi.Controlers.Jokes;
+package pl.jokeandweatherapi.jokeandweatherapi.Controllers.Jokes;
 
 
 import org.springframework.http.*;

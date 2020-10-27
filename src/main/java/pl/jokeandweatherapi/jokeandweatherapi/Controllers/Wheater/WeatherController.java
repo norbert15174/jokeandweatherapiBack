@@ -1,4 +1,4 @@
-package pl.jokeandweatherapi.jokeandweatherapi.Controlers.Wheater;
+package pl.jokeandweatherapi.jokeandweatherapi.Controllers.Wheater;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
@@ -32,7 +32,8 @@ public class WeatherController {
         UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl("http://api.openweathermap.org/data/2.5/weather")
                 .queryParam("q", q)
                 .queryParam("lang",lang)
-                .queryParam("appid",this.appid);
+                .queryParam("appid",this.appid)
+                .queryParam("units","metric");
         HttpEntity httpEntity = new HttpEntity(headers);
 
         RestTemplate restTemplate = new RestTemplate();
